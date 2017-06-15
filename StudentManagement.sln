@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement", "StudentManagement\StudentManagement.csproj", "{058C9E2D-2E7B-4E24-A80D-ED5CEBFD5644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Tests", "StudentManagement.Tests\StudentManagement.Tests.csproj", "{3B3F7DE6-9FD3-4B05-8B6F-CDD9FA157CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIS", "SIS\SIS.csproj", "{DE4DC03D-3825-4830-87E6-59B9195B5429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{058C9E2D-2E7B-4E24-A80D-ED5CEBFD5644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058C9E2D-2E7B-4E24-A80D-ED5CEBFD5644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058C9E2D-2E7B-4E24-A80D-ED5CEBFD5644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058C9E2D-2E7B-4E24-A80D-ED5CEBFD5644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3F7DE6-9FD3-4B05-8B6F-CDD9FA157CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3F7DE6-9FD3-4B05-8B6F-CDD9FA157CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3F7DE6-9FD3-4B05-8B6F-CDD9FA157CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3F7DE6-9FD3-4B05-8B6F-CDD9FA157CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4DC03D-3825-4830-87E6-59B9195B5429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4DC03D-3825-4830-87E6-59B9195B5429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4DC03D-3825-4830-87E6-59B9195B5429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4DC03D-3825-4830-87E6-59B9195B5429}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
