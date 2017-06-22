@@ -30,7 +30,7 @@ var studentDetails = {
         })
 
     },
-    getEnrollmentDetails: function (obj) {
+    getEnrollmentDetails: function (obj, id) {
         var studentId = id;
         $(".sel").removeClass("sel");
         $('#' + studentId).addClass('sel');

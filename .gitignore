@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/StudentManagement/App_Start
+/StudentManagement/SwaggerExtensions

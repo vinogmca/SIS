@@ -1,9 +1,12 @@
-﻿<html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StudentDetails.aspx.cs" Inherits="SIS.StudentDetails" %>
+
+<html>
 <head>
     <title>Student Information System - SIS</title>
     <script src="Scripts/jquery-1.11.0.min.js"></script>
     <script src="Scripts/jquery-ui-1.10.4.min.js"></script>
-    <script src="Scripts/StudentDetails.js"></script>
+    <!--<script src="Scripts/StudentDetails.js"></script>-->
+    <script src="Scripts/StudentDetailsV1.js"></script>
     <link href="Content/Studentdetails.css" rel="stylesheet" />
     <body onload="studentDetails.getDetails()">
         <div class="studenthead stuhead">

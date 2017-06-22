@@ -1,7 +1,7 @@
 var studentDetails = {
 
     getDetails: function () {
-        var actionUrl = "http://localhost:60787/api/Student";
+        var actionUrl = "http://sisapi-vinoth.azurewebsites.net/api/Student";
         $.ajax({
             url: actionUrl,
             type: "GET",
@@ -30,7 +30,7 @@ var studentDetails = {
         $(".sel").removeClass("sel");
         $('#' + studentId).addClass('sel');
         var studentId = $(obj).parent().parent().parent().parent().find('.container').attr('id');
-        var actionUrl = "http://localhost:60787/api/Students/Enrollment/" + studentId;
+        var actionUrl = "http://sisapi-vinoth.azurewebsites.net/api/Students/Enrollment/" + studentId;
         var auth = btoa('authentica:@uth3nt1c@');
         $.ajax({
             url: actionUrl,
@@ -57,7 +57,7 @@ var studentDetails = {
         $(".sel").removeClass("sel");
         $('#' + studentId).addClass('sel');
         var studentId = $(obj).parent().parent().parent().parent().find('.container').attr('id');
-        var actionUrl = "http://localhost:60787/api/Students/Assignment/" + studentId;
+        var actionUrl = "http://sisapi-vinoth.azurewebsites.net/api/Students/Assignment/" + studentId;
         $.ajax({
             url: actionUrl,
             type: "GET",
